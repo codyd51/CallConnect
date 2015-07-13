@@ -5,7 +5,7 @@
 -(void)handleCallConnected:(id)arg1 {
 	NSLog(@"[CallConnect] call connected");
 	if ([[NSBundle mainBundle].bundleIdentifier isEqualToString:@"com.apple.springboard"]) {
-		AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
+		AudioServicesPlaySystemSound(1352); //this key works regardless of the silent switch or the settings on the device - credit to jakob.j 
 	}
 	%orig;
 }

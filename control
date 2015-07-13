@@ -1,7 +1,7 @@
 Package: com.phillipt.callconnect
 Name: CallConnect
 Depends: mobilesubstrate
-Version: 0.0.1
+Version: 1.1
 Architecture: iphoneos-arm
 Description: Always know exactly when your call connects
 Maintainer: Phillip Tennen
